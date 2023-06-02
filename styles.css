@@ -113,7 +113,7 @@ h4{
 }
 .about-text{
     width: 550px;
-
+    background-color: #191919;
 }
 .main{
     width: 1130px;
@@ -122,12 +122,14 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #191919;
 }
 .about-text h2{
     color: azure;
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    background-color: #191919;
 }
 .about-text h5{
     color: azure;
@@ -135,6 +137,7 @@ h4{
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
+    background-color: #191919;
 }
 .about-text p{
     color: azure;
@@ -142,6 +145,7 @@ h4{
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+    background-color: #191919;
 }
 button{
     background-color: rgb(255, 39, 93);
