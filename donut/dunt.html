@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="donut.css" />
+    <title>Donut Maker</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#fred" class="header__link"
+              >Fred the Baker Baking Company</a
+            >
+            <div id="company-info" class="header__dropdown">
+              <article class="header__article">
+                <h2 class="dropdown__title">Our company story:</h2>
+                  <div class="dropdown__body">
+                    <p>
+                      Fred the Baker Baking Company has a rich history that dates
+                      back to the first bakeries on Drury Lane. The company was
+                      founded by Fred Baker Man, the brother of the famous Muffin
+                      Man. After a heated disagreement with his brother over whether
+                      their muffin shop should expand to offer more variety, Fred
+                      decided to strike out on his own and start his own bakery.
+                    </p>
+    
+                    <p>
+                      Fred was determined to offer a wider range of baked goods and
+                      believed that there was more to baking than just muffins. He
+                      dropped his last name and became known as Fred the Baker. His
+                      new donut shop on Drury Lane quickly became a sensation,
+                      attracting customers from far and wide who were eager to try
+                      this new delicacy.
+                    </p>
+    
+                    <p>
+                      As the donut shop grew in popularity, it paved the way for
+                      other baked goods to be introduced and enjoyed by the masses.
+                      However, despite their success, Fred and his brother never
+                      fully reconciled their differences.
+                    </p>
+    
+                    <p>
+                      After their passing, their children took over the family
+                      businesses and eventually merged them into one company: Fred
+                      the Baker Baking Company. Today, this unrivaled baking company
+                      brings joy to billions of people around the world by
+                      leveraging the power of the internet to share their delicious
+                      baked goods.
+                    </p>
+                  </div>
+              </article>
+            </div>
+          </li>
+          <li class="header__item">
+            <a
+              href="https://orteil.dashnet.org/cookieclicker/"
+              class="header__link"
+              >Cookie Clicker</a
+            >
+          </li>
+          <li class="header__item">
+            <a href="#contact" class="header__link">Contact</a>
+          </li>
+          <li class="header__item">
+            <button id="reset-button" class="header__item">Reset Game</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="click-handler card">
+        <h2>Make Donuts</h2>
+      </section>
+      <section class="click-handler__button card">
+        <button id="click-button">
+          <img src="donut.png" alt="Make Donuts"/>
+        </button>
+      </section>
+      <section class="click-handler__text card">
+        <p>Donuts made:</p>
+      </section>
+      <section id="donut-count" class="click-handler__count card">
+        <span>0</span>
+      </section>
+      <section class="auto-clicker__title card">
+        <h2>Purchase Sprinkles</h2>
+      </section>
+      <section class="auto-clicker__text card">
+        Sprinkles:
+      </section>
+      <section id="auto-clicker-count" class="auto-clicker__count card">
+        <span>0</span>
+      </section>
+      <section class="auto-clicker__button card">
+        <button id="buy-auto-clicker" disabled class="auto-clicker__button">
+          <img src="sprinkle-off.gif" alt="Buy Sprinkles">
+        </button>
+      </section>
+    </main>
+    <!-- <img src="sprinkle.gif" alt="Buy Sprinkles"> -->
+    <video id="background-video" autoplay muted loop>
+      <source src="background.mp4" type="video/mp4" />
+    </video>
+    <script src="script.js"></script>
+  </body>
+</html>
